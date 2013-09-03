@@ -86,7 +86,7 @@
 </pre></div>
 
 <h3>
-<a name="lets-add-some-style" class="anchor" href="#lets-add-some-style"><span class="octicon octicon-link"></span></a>Lets add some style</h3>
+<a name="lets-add-some-style-with-css" class="anchor" href="#lets-add-some-style-with-css"><span class="octicon octicon-link"></span></a>Lets add some style with CSS</h3>
 
 <p>We can either setup the style in the <code>head</code> tag in index.html or in style.css. </p>
 
@@ -103,6 +103,34 @@
 
 <div class="highlight"><pre><span class="nt">div</span> <span class="p">{</span>
   <span class="k">background-color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="lets-add-some-functionality-with-javascript" class="anchor" href="#lets-add-some-functionality-with-javascript"><span class="octicon octicon-link"></span></a>Lets add some functionality with JavaScript</h3>
+
+<p>We can either setup the script in the <code>head</code> tag in index.html or in script.js. </p>
+
+<p><strong>In index.html</strong></p>
+
+<div class="highlight"><pre><span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;script&gt;</span>
+    <span class="kd">var</span> <span class="nx">hack</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"hacksu"</span><span class="p">);</span>
+    <span class="nx">hack</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">alert</span><span class="p">(</span><span class="s2">"hello!"</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"hacksu"</span><span class="nt">&gt;</span>Click me<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</pre></div>
+
+<p><strong>In script.js</strong></p>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">hack</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"hacksu"</span><span class="p">);</span>
+<span class="nx">hack</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="s2">"hello!"</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
       </section>
